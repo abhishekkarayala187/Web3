@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_updateString",
+						"type": "string"
+					}
+				],
+				"name": "updateOurString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0x12bd6f4ab348b45640cc9c5041fcc286feb55969c477d4e00cb73759898140ca",
+			"keccak256": "0xbc7574688324ff086a78d75170bd6309ecefabe2e1771513847ebd5b71435a71",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://12793ea159018aa5b740c034b6469c531d1f8c5ef47661938b5da30a60941094",
-				"dweb:/ipfs/QmNmVKyT6KAYEQ1xGo78ZLX17EjcNTepFkasv9jgDF2Brp"
+				"bzz-raw://1ec8205f376c2989357f20ef48cc9c7e60ade62e5abbc078c85ec4a4551e2b5f",
+				"dweb:/ipfs/QmUBPVVPdwxKjS6PVFjn1MVeoSN3zuCLxcojN6xSH2gp1a"
 			]
 		}
 	},
