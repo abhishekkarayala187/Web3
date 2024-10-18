@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_updateString",
+						"type": "string"
+					}
+				],
+				"name": "compareTwoStrings",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "ourString",
 				"outputs": [
@@ -60,11 +79,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0xbc7574688324ff086a78d75170bd6309ecefabe2e1771513847ebd5b71435a71",
+			"keccak256": "0x4dbec91117348bded8cc9d41867bf6494a46f0b4091dda5a0e3801131d38466f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1ec8205f376c2989357f20ef48cc9c7e60ade62e5abbc078c85ec4a4551e2b5f",
-				"dweb:/ipfs/QmUBPVVPdwxKjS6PVFjn1MVeoSN3zuCLxcojN6xSH2gp1a"
+				"bzz-raw://9ca36c5de73db283594e49d3b40b5b92db3c62c9c11687a1be714f9fe845f19c",
+				"dweb:/ipfs/QmeP6M1iqvBWupgM1BR6fYEDqjmN5tVSkmJm6ZKGRTTAft"
 			]
 		}
 	},
