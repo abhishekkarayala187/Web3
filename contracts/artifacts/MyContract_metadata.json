@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_updateString",
+						"name": "_mystring",
 						"type": "string"
 					}
 				],
@@ -19,6 +19,58 @@
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ourString1",
+						"type": "string"
+					}
+				],
+				"name": "deleteOurString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myByte",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "view",
@@ -35,6 +87,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_myAddress",
+						"type": "address"
+					}
+				],
+				"name": "setAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -79,11 +144,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0x4dbec91117348bded8cc9d41867bf6494a46f0b4091dda5a0e3801131d38466f",
+			"keccak256": "0x24a3b546409bc5a2abf0179c677c3acc369bd94749ed421bc08ba42ca94d0662",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9ca36c5de73db283594e49d3b40b5b92db3c62c9c11687a1be714f9fe845f19c",
-				"dweb:/ipfs/QmeP6M1iqvBWupgM1BR6fYEDqjmN5tVSkmJm6ZKGRTTAft"
+				"bzz-raw://b3913877539228195e3148d8f5396a1a60b9ef0c1b8d0f2acca9da84213fc86c",
+				"dweb:/ipfs/QmXzmk5iVDUWWVFsUMda2SLUfkXYeY6QkJZyCtEFZRgFsw"
 			]
 		}
 	},
